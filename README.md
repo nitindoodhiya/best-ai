@@ -12,7 +12,7 @@ It runs each model using [Ollama](https://ollama.com), collects their responses,
 best-ai/
 ├── mmlu_questions.txt           # All MMLU-style questions (1 per line)
 ├── ground_truth.json            # JSON mapping: { question: correct_answer }
-├── outputs/                     # Stores model CSV outputs
+├── mmlu_results/                     # Stores model CSV outputs
 ├── results/                     # Stores final accuracy scores
 ├── run_models.sh                # Runs each model via Ollama and saves responses
 ├── score_mmlu.py                # Compares responses to ground-truth and computes scores
@@ -74,7 +74,7 @@ bash run_models.sh
 
 This will:
 - Run each model on each question
-- Save the responses to `outputs/{model_name}.csv`
+- Save the responses to `mmlu_results/{model_name}.csv`
 
 ---
 
