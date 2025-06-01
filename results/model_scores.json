@@ -1,0 +1,17 @@
+{
+  "mistral": {
+    "correct": 10,
+    "total": 10,
+    "accuracy_percent": 100.0
+  },
+  "llama3": {
+    "correct": 10,
+    "total": 10,
+    "accuracy_percent": 100.0
+  },
+  "zephyr": {
+    "correct": 10,
+    "total": 10,
+    "accuracy_percent": 100.0
+  }
+}
